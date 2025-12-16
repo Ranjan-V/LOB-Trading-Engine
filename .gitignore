@@ -1,0 +1,35 @@
+# Virtual environment
+venv/
+env/
+
+# Data files
+data/raw/*
+data/processed/*
+data/tick_data/*
+*.csv
+*.parquet
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Results
+results/
+*.png
+*.jpg
+*.pdf
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
